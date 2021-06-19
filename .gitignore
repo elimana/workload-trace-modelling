@@ -1,0 +1,5 @@
+# Ignore trace files
+traces
+
+# Ignore python env
+env
