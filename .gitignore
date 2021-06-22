@@ -1,5 +1,7 @@
 # Ignore trace files
 traces
+*.tr
+*.csv
 
 # Ignore python env
 env
