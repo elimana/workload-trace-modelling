@@ -67,7 +67,7 @@ def best_fit_distribution(data, bins=200, ax=None):
           pass
 
         # identify if this distribution is better
-        if best_sse > sse > 0:
+        if sse > 0 and sse < best_sse:
           best_distribution = distribution
           best_params = params
           best_sse = sse
