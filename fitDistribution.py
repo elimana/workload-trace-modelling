@@ -75,7 +75,7 @@ def best_fit_distribution(data, bins=200, ax=None):
     except Exception:
       pass
 
-  return (best_distribution.name, best_params, results)
+  return (best_distribution, best_params, results)
 
 def make_pdf(dist, params, size=10000):
   """Generate distributions's Probability Distribution Function """
