@@ -5,3 +5,9 @@ traces
 
 # Ignore python env
 env
+
+# Ignore cache
+__pycache__
+
+# Ignore vscode settings
+.vscode
